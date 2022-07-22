@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    margin: 10px auto 30px auto;
+    width: 60% ;
+    
+}
+.woman-celeb{
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.intro{
+    margin: 8px auto 8px auto;
+}
+
+ul{
+    display: table;
+    margin: 0 auto 0 auto;
+}
+ul li{
+    text-align: left;
+    font-size: 17px;
+}
