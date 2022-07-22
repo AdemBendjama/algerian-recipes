@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
 /**/
 body {
-    background-color: #D9D9D9;
+    background-color: #c2dad6;
     margin: 0;
     text-align: center;
 }
@@ -14,10 +14,10 @@ body {
 }
 
 h1{
-    font-size: 38px;
+    font-size: 36px;
 }
 h2{
-    font-size: 28px;
+    font-size: 26px;
 }
 h1,
 h2 {
@@ -26,8 +26,8 @@ h2 {
     word-spacing: 1.5px;
 }
 
-.woman-celeb {
-    max-width: 100%;
+img {
+    max-width: 80%;
     height: auto;
 }
 
@@ -40,12 +40,14 @@ figcaption {
     margin: 8px auto 8px auto;
 }
 
-ul {
+ul ,
+ol{
     display: table;
     margin: 0 auto 0 auto;
 }
 
-ul li {
+ul li ,
+ol li{
     text-align: left;
     font-size: 17px;
 }
