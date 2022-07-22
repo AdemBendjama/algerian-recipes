@@ -1,30 +1,51 @@
-body{
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+/**/
+body {
     margin: 0;
     text-align: center;
 }
-.container{
+
+.container {
     margin: 10px auto 30px auto;
-    width: 60% ;
-    
+    width: 60%;
+
 }
-.woman-celeb{
+
+h1{
+    font-size: 38px;
+}
+h2{
+    font-size: 28px;
+}
+h1,
+h2 {
+    font-family: 'Source Serif Pro', serif;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+}
+
+.woman-celeb {
     max-width: 100%;
     height: auto;
 }
 
-figcaption{
+figcaption {
     margin-top: 5px;
     font-size: 14px;
 }
-.intro{
+
+.intro {
     margin: 8px auto 8px auto;
 }
 
-ul{
+ul {
     display: table;
     margin: 0 auto 0 auto;
 }
-ul li{
+
+ul li {
     text-align: left;
     font-size: 17px;
 }
