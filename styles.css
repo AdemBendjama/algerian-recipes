@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
-
 /**/
 body {
     background-color: #c2dad6;
@@ -45,7 +44,7 @@ img {
 }
 
 figcaption {
-    margin-top: 5px;
+    margin-top: 7px;
     font-size: 14px;
 }
 
@@ -56,6 +55,7 @@ figcaption {
 p,
 li {
     font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
 }
 
 ul,
@@ -69,4 +69,12 @@ ol li {
     text-align: left;
     font-size: 17px;
     margin: 5px auto 5px auto
+}
+
+/* FIREFOX SUPPORT*/
+@media all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm) {
+
+    figcaption {
+        font-size: 12px;
+    }
 }
