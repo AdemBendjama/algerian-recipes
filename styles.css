@@ -16,8 +16,13 @@ body {
 
 }
 
+.homebutton {
+    margin: 0;
+}
+
 h1 {
     font-size: 36px;
+    margin-top: 12px;
 }
 
 h2 {
